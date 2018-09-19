@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-simple-library": [
+        "dist/ng-simple-library"
+      ],
+      "ng-simple-library/*": [
+        "dist/ng-simple-library/*"
+      ]
+    }
   }
 }
